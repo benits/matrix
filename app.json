@@ -2,20 +2,24 @@
   "name": "Matrix",
   "description": "Matrix produces a virtual office for remote teams. In this project, you can run a virtual office to simulate the physical environment",
   "repository": "https://github.com/ResultadosDigitais/matrix",
-  "keywords": ["online workspace", "virtual office", "remote teams"],
+  "keywords": [
+    "online workspace",
+    "virtual office",
+    "remote teams"
+  ],
   "stack": "container",
   "env": {
     "GOOGLE_CLIENT_ID": {
       "description": "Google Client Id to the OAuth authentication",
-      "value": "xxxxxxx.apps.googleusercontent.com"
+      "value": "728854686009-quasa47d2jq7f9r9p1vpvj643jeh4954.apps.googleusercontent.com"
     },
     "GOOGLE_SECRET": {
       "description": "Google Secret to the OAuth authentication",
-      "value": "gXXXXXXXXXXXXXXss"
+      "value": "eaGbVOD7zDQ06aSeLIwjkFEY"
     },
     "GOOGLE_CALLBACK_URL": {
       "description": "The callback Url to the OAuth authentication",
-      "value": "https://${app.name}.herokuapp.com/auth/google/callback"
+      "value": "https://matrixtestee.herokuapp.com/auth/google/callback"
     },
     "COOKIE_SESSION_SECRET": {
       "description": "The secret of session",
