@@ -11,15 +11,15 @@
   "env": {
     "GOOGLE_CLIENT_ID": {
       "description": "Google Client Id to the OAuth authentication",
-      "value": "728854686009-quasa47d2jq7f9r9p1vpvj643jeh4954.apps.googleusercontent.com"
+      "value": "xxxxxxx.apps.googleusercontent.com"
     },
     "GOOGLE_SECRET": {
       "description": "Google Secret to the OAuth authentication",
-      "value": "eaGbVOD7zDQ06aSeLIwjkFEY"
+      "value": "gXXXXXXXXXXXXXXss"
     },
     "GOOGLE_CALLBACK_URL": {
       "description": "The callback Url to the OAuth authentication",
-      "value": "https://matrixtestee.herokuapp.com/auth/google/callback"
+      "value": "https://${app.name}.herokuapp.com/auth/google/callback"
     },
     "COOKIE_SESSION_SECRET": {
       "description": "The secret of session",
